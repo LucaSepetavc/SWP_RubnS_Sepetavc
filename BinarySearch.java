@@ -1,3 +1,5 @@
+package SWP_RubnS_Sepetavc;
+
 public class BinarySearch {
 
         int binarySearch(char[] array, int x) {
@@ -19,7 +21,7 @@ public class BinarySearch {
             return -1;
         }
 
-        public static void main(String args[]) {
+        public static void main(String[] args) {
             BinarySearch ob = new BinarySearch();
             char[] array = { 'a', 'b', 'c', 'd', 'e', 'f', 'g' };
             char x = 'e';

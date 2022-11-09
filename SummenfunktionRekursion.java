@@ -1,12 +1,14 @@
+package SWP_RubnS_Sepetavc;
+
 import java.util.Scanner;
 
 public class SummenfunktionRekursion{
 
     static int calcSum(int x){
-        if(x>1) {
+        if(x>0) {
             return x + calcSum(x - 1);
         }
-        return 1;
+        return 0;
     }
 
     public static void main(String[] args) {

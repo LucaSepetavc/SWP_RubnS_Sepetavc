@@ -1,3 +1,5 @@
+package SWP_RubnS_Sepetavc;
+
 import java.util.Scanner;
 
 public class SummenfunktionIterativ{
